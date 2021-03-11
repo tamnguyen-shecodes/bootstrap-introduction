@@ -1,0 +1,57 @@
+body {
+  background: #dfdfdf;
+}
+
+.cv-container {
+  max-width: 1000px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+/* start cv-header */
+.cv-header {
+  background: #4c4c4c;
+  height: 200px;
+}
+
+.name {
+  color: #fff;
+}
+
+.position {
+  color: #dfdfdf;
+}
+/* end cv-header */
+
+/* start cv-body */
+.cv-body {
+  background: #fff;
+  min-height: 800px;
+}
+
+.personal-info {
+  margin-top: 100px;
+}
+
+.label {
+  width: 80px;
+  display: inline-block;
+}
+.label:after {
+  content: ":";
+  text-align: right;
+}
+/* end cv-body */
+
+.cv-footer {
+  background: #4c4c4c;
+  height: 50px;
+}
+
+ul {
+  margin-bottom: 0;
+}
