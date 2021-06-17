@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Training</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container themed-container">
+      <span>
+        .container &bull; <code> max-width </code> at each responsive breakpoint
+      </span>
+    </div>
+    <div class="container-sm themed-container">
+      <span>
+        .container-sm &bull; Small Breakpoint <code>≥576px</code> &bull; 100%
+        width until small breakpoint
+      </span>
+    </div>
+    <div class="container-md themed-container">
+      <span>
+        .container-md &bull; Medium Breakpoint <code>≥768px</code> &bull; 100%
+        width until medium breakpoint
+      </span>
+    </div>
+    <div class="container-lg themed-container">
+      <span>
+        .container-lg &bull; Large Breakpoint <code>≥992px</code> &bull; 100%
+        width until large breakpoint
+      </span>
+    </div>
+    <div class="container-xl themed-container">
+      <span>
+        .container-xl &bull; Extra large Breakpoint <code>≥1200px</code> &bull;
+        100% width until extra large breakpoint
+      </span>
+    </div>
+    <div class="container-xxl themed-container">
+      <span>
+        .container-xxl &bull; Extra extra large Breakpoint
+        <code>≥1400px</code> &bull; 100% width until extra extra large
+        breakpoint
+      </span>
+    </div>
+    <div class="container-fluid themed-container">
+      .container-fluid &bull; Width: <code>100%</code>
+    </div>
+
+    <!-- Grid system -->
+    <div class="row">
+      <div class="col-4">
+        <!-- insert avatar -->
+        <img src="/static/profile-pic.png" alt="" />
+      </div>
+      <div class="col-8">name postion</div>
+    </div>
+
+    <div class="row grid-example">
+      <div class="col-1">1</div>
+      <div class="col-1">2</div>
+      <div class="col-1">3</div>
+      <div class="col-1">4</div>
+      <div class="col-1">5</div>
+      <div class="col-1">6</div>
+      <div class="col-1">7</div>
+      <div class="col-1">8</div>
+      <div class="col-1">9</div>
+      <div class="col-1">10</div>
+      <div class="col-1">11</div>
+      <div class="col-1">12</div>
+    </div>
+    <div class="row grid-example-2">
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">1</div>
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">2</div>
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">3</div>
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">4</div>
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">5</div>
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">6</div>
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">7</div>
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">8</div>
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">9</div>
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">10</div>
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">11</div>
+      <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-6">12</div>
+    </div>
+
+    <!-- another way to set the number of columns each row: row-cols-x -->
+
+    <div class="container my-5">
+      <div class="row gx-5 gy-3">
+        <div class="col-6">
+          <div class="p-3 border bg-light">column <code>.col-6</code></div>
+        </div>
+        <div class="col-6">
+          <div class="p-3 border bg-light">column <code>.col-6</code></div>
+        </div>
+        <div class="col-6">
+          <div class="p-3 border bg-light">column <code>.col-6</code></div>
+        </div>
+        <div class="col-6">
+          <div class="p-3 border bg-light">column <code>.col-6</code></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row row-cols-lg-3 row-cols-md-2 gx-5 gy-3">
+        <div class="col">
+          <div class="p-3 border bg-light">column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">column</div>
+        </div>
+        <div class="col">
+          <div class="p-3 border bg-light">column</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Icon -->
+    <div class="container">
+      <i class="bi bi-clock" style="font-size: 20px"></i>
+      <i class="bi bi-clock"></i>
+      <i class="bi bi-app-indicator fs-1"></i>
+      <i class="bi bi-house-fill"></i>
+    </div>
+
+    <div id="screen-width-display">
+      <code> <span></span> </code>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
